@@ -1,19 +1,65 @@
 main {
   width: 80%;
   margin: auto;
+  background-image: url(acotarb.jpg);
+
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+
+  background-attachment: fixed;
+  text-align: center;
+  justify-content: center;
 }
-img {
-  width: 400px;
-  height: 400px;
-  flex: 1;
- 
+article > img {
+  width: 60%;
+  margin-right: 0;
+  padding-right: 0;
+}
+.nagykep {
+  text-align: center;
+  
+
+  
+}
+.nagykep > img {
+  width: 100%;
+  overflow: hidden;
 }
 .container {
-  display: gird;
-  grid-template-columns: 2fr 2fr;
-  grid-template-areas: "k" "sk";
-}
-.kep{
-grid-area: k;
-}
+  display: grid;
 
+  grid-template-columns: 200px 200px 200px 200px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.kiscontainer {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+}
+.jobb,
+.bal {
+  background-color: rgb(39, 38, 38);
+  color: azure;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(Night\ Court\ Purple.jpg);
+  width: 100%;
+
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+
+  background-attachment: fixed;
+  text-align: center;
+}
